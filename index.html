@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Código Cosme </title>
+  <meta name="title" content="Crafti - We Make Top Quality Handmade Products">
+  <meta name="description" content="This is a Handmade Products html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./icon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rosario:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <img src="assets/images/logocc.png" alt="Logo" class="logo">
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="assets/pages/sobrenos.html" class="navbar-link">Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="assets/pages/projectos.html" class="navbar-link">Projectos</a>
+          </li>
+
+          <li>
+            <a href="assets/pages/contactos.html" class="navbar-link">Cantactos</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              A excelência profissional é a nossa norma
+              
+            </h1>
+
+            <p class="section-text">
+              Somos uma empresa dedicada a impulsionar a inovação e a <br> excelência no universo da tecnologia da informação.
+            </p>
+
+            <a href="assets/pages/sobrenos.html" class="btn">
+              <span class="span">Saber Mais</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="wrapper">
+            <div class="hero-banner-1 img-holder" style="--width: 400; --height: 550;">
+              <img src="./assets/images/hero-banner-1.jpg" width="400" height="550"
+                alt="view of assortment of decor for interior shop" class="img-cover">
+            </div>
+
+            <div class="hero-banner-2 img-holder" style="--width: 500; --height: 850;">
+              <img src="./assets/images/hero-banner-2.jpg" width="500" height="850" alt="ceramic craft ware"
+                class="img-cover">
+            </div>
+
+            <img src="./assets/images/hero-shape.png" width="570" height="676" alt="laves" class="shape">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+            <figure class="about-banner about-banner-1 img-holder" style="--width: 600; --height: 480;">
+              <img src="./assets/images/about-1.jpg" width="600" height="480" loading="lazy" alt="craftman in workshop"
+                class="img-cover">
+            </figure>
+
+            <h2 class="h2 section-title">Pensando desde 2018 e Realizando desde 2024</h2>
+          </div>
+
+          <figure class="about-banner about-banner-2 img-holder" style="--width: 500; --height: 700;">
+            <img src="./assets/images/about-2.jpg" width="500" height="700" loading="lazy"
+              alt="interior view of a leather shop selling belts brac" class="img-cover">
+          </figure>
+
+          <div class="about-content">
+
+            <h3 class="h2 section-title">Ideias Inovadoras</h3>
+
+            <p class="section-text">
+              A inovação não se limita a grandes avanços tecnológicos; está enraizada na mentalidade de questionar, experimentar e aprender com cada experiência.
+            </p>
+
+            <button class="btn saber-mais-btn" data-target="modalInovadoras">
+              <span class="span">Saber Mais</span>
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+            <figure class="about-banner about-banner-3 img-holder" style="--width: 850; --height: 420;">
+              <img src="./assets/images/about-3.jpg" width="850" height="420" loading="lazy"
+                alt="concentrated artisans in workshop" class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection text-center" aria-labelledby="collection-label">
+        <div class="container">
+          <h2 class="h2 section-title" id="collection-label">
+            Código Cosme SU Lda.
+          </h2>
+          <p class="section-text">
+            A excelência profissional é a nossa norma
+          </p>
+          <ul class="grid-list">
+            <li>
+              <div class="collection-card">
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/collection-1.jpg" width="500" height="550" loading="lazy"
+                    alt="Pottery & Ceramics" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Missão</h3>
+                  <p class="card-text">
+                    Oferecer soluções tecnológicas inovadoras e confiáveis.
+                  </p>
+                  <button class="btn saber-mais-btn" data-target="modalMissao">
+                    <span class="span">Saber Mais</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="collection-card">
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/collection-2.jpg" width="500" height="550" loading="lazy"
+                    alt="Leather Craft" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Valores</h3>
+                  <p class="card-text">
+                    Buscamos continuamente a excelência e a inovação em tudo o que fazemos.
+                  </p>
+                  <button class="btn saber-mais-btn" data-target="modalValores">
+                    <span class="span">Saber Mais</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="collection-card">
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/collection-3.jpg" width="500" height="550" loading="lazy"
+                    alt="Home Decoration" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Visão</h3>
+                  <p class="card-text">
+                    Ser reconhecida como uma das principais referências em soluções tecnológicas.
+                  </p>
+                  <button class="btn saber-mais-btn" data-target="modalVisao">
+                    <span class="span">Saber Mais</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    
+      <!-- Modais -->
+      <div id="modalMissao" class="modal">
+        <span class="close-button" data-target="modalMissao">&times;</span>
+        <div class="modal-content">
+          <h2>Missão</h2>
+          <p> Ser líder em oferecer soluções tecnológicas inovadoras e confiáveis, impulsionando a transformação digital e melhorando a eficiência e a qualidade em diversos setores. Comprometemo-nos a superar as expectativas dos nossos clientes, fornecendo produtos e serviços de alta qualidade que atendam às suas necessidades específicas e promovam o sucesso de seus negócios. Nossa equipe está empenhada em manter-se na vanguarda da inovação, investindo em pesquisa e desenvolvimento para desenvolver soluções que antecipem as demandas futuras do mercado. Além disso, priorizamos a confiabilidade em todas as etapas do processo, garantindo que nossos clientes possam contar conosco para oferecer soluções robustas e estáveis. Estamos empenhados em promover um impacto positivo na sociedade, adotando práticas sustentáveis e contribuindo para o avanço tecnológico de forma ética e responsável. Em suma, nossa missão é capacitar nossos clientes a alcançarem seus objetivos por meio de soluções tecnológicas de ponta, confiáveis e inovadoras.</p>
+        </div>
+      </div>
+    
+      <div id="modalValores" class="modal">
+        <span class="close-button" data-target="modalValores">&times;</span>
+        <div class="modal-content">
+          <h2>Valores</h2>
+          <p>1 - Excelência: A excelência é o padrão pelo qual medimos todas as nossas atividades e resultados. Buscamos constantemente aprimorar nossos processos, produtos e serviços para garantir que atinjamos os mais altos níveis de qualidade e desempenho. Isso significa que não nos contentamos com o status quo; estamos sempre em busca de maneiras de melhorar e superar as expectativas, tanto internas quanto externas.
+<br><br>
+            2 - Inovação: A inovação é o motor do nosso progresso. Estamos constantemente explorando novas ideias, tecnologias e abordagens para resolver os desafios dos nossos clientes e do mercado em geral. Encorajamos a criatividade e a experimentação em todas as áreas da nossa empresa, desde o desenvolvimento de produtos até os processos de negócios. Acreditamos que é através da inovação que podemos nos manter na vanguarda do nosso setor e oferecer soluções verdadeiramente diferenciadas e impactantes.
+ <br>   <br>        
+            3 - Aprendizado Contínuo: Reconhecemos que a busca pela excelência e inovação requer um compromisso com o aprendizado contínuo. Estamos sempre dispostos a adquirir novos conhecimentos, habilidades e perspectivas, tanto individualmente quanto como organização. Valorizamos a curiosidade intelectual e incentivamos o desenvolvimento pessoal e profissional dos nossos colaboradores, proporcionando oportunidades de treinamento e crescimento.
+ <br>       <br>    
+            4 - Integridade: Em todas as nossas atividades, agimos com integridade e ética. Valorizamos a transparência, a honestidade e o respeito em todas as nossas interações, tanto internas quanto externas. Comprometemo-nos a cumprir nossos compromissos e a tomar decisões que reflitam nossos valores fundamentais, mesmo quando isso significa tomar o caminho mais difícil.</p>
+        </div>
+      </div>
+    
+      <div id="modalVisao" class="modal">
+        <span class="close-button" data-target="modalVisao">&times;</span>
+        <div class="modal-content">
+          <h2>Visão</h2>
+          <p>Nossa visão é ser reconhecida como uma das principais referências em soluções tecnológicas, não apenas localmente, mas em um escopo global. Visualizamos um futuro onde nossa marca seja sinônimo de inovação, confiabilidade e excelência em todas as áreas em que atuamos. Buscamos ser líderes de mercado, oferecendo produtos e serviços que definem os padrões da indústria e inspiram outros a seguirem nosso exemplo.</p>
+        </div>
+      </div>
+
+      <div id="modalInovadoras" class="modal">
+        <span class="close-button" data-target="modalInovadoras">&times;</span>
+        <div class="modal-content">
+          <h2>Ideias Inovadoras</h2>
+          <p>A inovação vai além dos grandes avanços tecnológicos; é uma mentalidade de questionamento, experimentação e aprendizado contínuo. Envolve desafiar o status quo, estar aberto a novas ideias e assumir riscos calculados para melhorar constantemente. Através da experimentação e do aprendizado com cada experiência, os verdadeiros inovadores impulsionam o progresso e a mudança em todas as áreas da vida e dos negócios.</p>
+        </div>
+      </div>
+    
+      <div id="modalOverlay" class="modal-overlay"></div>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="feature" aria-label="features">
+
+        <div class="feature-banner has-bg-image has-after"
+          style="background-image: url('./assets/images/feature-banner.jpg')">
+          
+        </div>
+
+        <div class="section feature-content">
+          <div class="container">
+
+            <h2 class="h2 section-title">
+              Extremamente Apaixonados por tecnologia 
+            </h2>
+
+            <p class="section-text">
+              Com uma equipe altamente qualificada e apaixonada por soluções tecnológicas, oferecemos uma gama abrangente de serviços que abordam as necessidades crescentes e desafios do mundo digital.  </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-1.svg" width="45" height="45" loading="lazy"
+                      alt="review icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">100% Confiáveis</h3>
+
+                    <p class="card-text">
+                      Podem contar conosco para soluções tecnológicas confiáveis e seguras.   </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-2.svg" width="45" height="45" loading="lazy"
+                      alt="badge icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Trabalhadores Profissionais</h3>
+
+                    <p class="card-text">
+                      A excelência profissional é a nossa norma
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-3.svg" width="45" height="45" loading="lazy"
+                      alt="money bag icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Melhor Preço do Mercado</h3>
+
+                    <p class="card-text">
+                      Clientes beneficiados pela combinação única de qualidade e acessibilidade.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <p>
+              Destacamos o profissionalismo excepcional de nossa equipe..
+            </p>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="testimonials">
+        <div class="container">
+
+          <div class="testi-card">
+
+            <p class="card-text">
+              A diferença entre um sonho e um objetivo é um plano.
+            </p>
+
+            <p class="client-name">Amir Cosme</p>
+
+            <p class="client-title">Director Executivo da Código Cosme</p>
+
+            <img src="./assets/images/quote.svg" width="50" height="50" loading="lazy" class="icon" alt="quote">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery">
+
+        <ul class="gallery-list">
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-1.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Desenvolvimento de Software</h3>
+
+                <button class="btn saber-mais-btn" data-target="modalDS">
+                  <span class="span">Saber Mais</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-2.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Prestação de Serviços de TI</h3>
+
+                <button class="btn saber-mais-btn" data-target="modalPS">
+                  <span class="span">Saber Mais</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-3.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Integração de Tecnologias</h3>
+
+                <button class="btn saber-mais-btn" data-target="modalIT">
+                  <span class="span">Saber Mais</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-4.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Treinamento e Capacitação</h3>
+
+                <button class="btn saber-mais-btn" data-target="modalTC">
+                  <span class="span">Saber Mais</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+<!-- 
+        - MODAIS
+      -->
+
+      <div id="modalDS" class="modal">
+        <span class="close-button" data-target="modalDS">&times;</span>
+        <div class="modal-content">
+          <h2>Desenvolvimento de Software</h2>
+          <p>
+            <br>1. Levantamento de requisitos.
+            <br>2. Análise e design de sistemas.
+            <br>3. Desenvolvimento de código fonte.
+           <br> 4. Testes de software (unitários, integrados, e de sistema).
+            <br>5. Depuração e correção de erros.
+            <br>6. Implementação de melhorias e novas funcionalidades.
+            <br>7. Documentação do software.
+            <br>8. Implementação de segurança.
+            <br>9. Otimização de desempenho.
+            <br>10. Integração contínua e entrega contínua (CI/CD).
+            <br>11. Manutenção e suporte do software.
+            <br>12. Atualizações e correções de bugs.
+            <br>13. Revisão e refatoração do código.
+            <br>14. Garantia de qualidade do software.
+           <br> 15. Colaboração e comunicação com a equipe.</p>
+        </div>
+      </div>
+
+
+      
+
+      <div id="modalPS" class="modal">
+        <span class="close-button" data-target="modalPS">&times;</span>
+        <div class="modal-content">
+          <h2>Prestação de Serviços de TI</h2>
+          <p><br>1. Avaliação das necessidades do cliente e levantamento de requisitos.
+            <br>2. Planejamento e design da solução de TI.
+            <br>3. Implementação e configuração de sistemas e infraestrutura.
+            <br>4. Monitoramento e manutenção proativa dos sistemas.
+            <br>5. Suporte técnico e helpdesk para usuários.
+            <br>6. Gerenciamento de segurança da informação.
+            <br>7. Backup e recuperação de dados.
+            <br>8. Implementação de políticas de governança de TI.
+            <br>9. Migração e atualização de sistemas.
+            <br>10. Treinamento e capacitação de usuários.
+            <br>11. Gestão de fornecedores e contratos de serviços.
+            <br>12. Auditoria e conformidade regulatória.
+            <br>13. Análise de riscos e continuidade de negócios.
+            <br>14. Otimização de processos e infraestrutura.
+            <br>15. Relatórios e análises de desempenho.
+            </p>
+        </div>
+      </div>
+
+      <div id="modalIT" class="modal">
+        <span class="close-button" data-target="modalIT">&times;</span>
+        <div class="modal-content">
+          <h2>Integração de Tecnologias</h2>
+          <p><br>1. Avaliação das tecnologias existentes e identificação de necessidades de integração.
+            <br>2. Análise de compatibilidade e interoperabilidade entre sistemas.
+            <br>3. Projeto de arquitetura para integração de tecnologias.
+            <br>4. Desenvolvimento de interfaces e APIs (Application Programming Interfaces).
+            <br>5. Testes de integração para garantir o funcionamento adequado dos sistemas interconectados.
+            <br>6. Implementação de soluções de middleware, se necessário.
+            <br>7. Configuração de fluxos de dados entre os sistemas integrados.
+            <br>8. Gerenciamento de segurança e acesso aos dados durante a integração.
+            <br>9. Treinamento de usuários e equipe técnica envolvida na integração.
+            <br>10. Monitoramento contínuo e manutenção dos sistemas integrados.
+            <br>11. Resolução de problemas e otimização do desempenho da integração.
+            <br>12. Documentação completa do processo de integração e suas configurações.
+            <br>13. Avaliação de desempenho e retorno sobre o investimento (ROI) da integração.
+            <br>14. Revisão e atualização periódica da estratégia de integração de tecnologias.
+            <br>15. Colaboração estreita com os stakeholders e fornecedores envolvidos no processo de integração.
+            </p>
+        </div>
+      </div>
+
+
+      <div id="modalTC" class="modal">
+        <span class="close-button" data-target="modalTC">&times;</span>
+        <div class="modal-content">
+          <h2>Treinamento e Capacitação</h2>
+          <p><br>1. Identificação das necessidades de treinamento.
+            <br>2. Desenvolvimento de um plano de treinamento personalizado.
+            <br>3. Seleção de métodos de treinamento adequados (presencial, online, misto, etc.).
+            <br>4. Criação de materiais didáticos e recursos de treinamento.
+            <br>5. Designação de instrutores qualificados e especialistas no assunto.
+            <br>6. Agendamento e organização de sessões de treinamento.
+            <br>7. Realização de sessões de treinamento práticas e interativas.
+            <br>8. Avaliação do progresso e desempenho dos participantes.
+            <br>9. Feedback contínuo e ajustes no plano de treinamento conforme necessário.
+            <br>10. Certificação ou reconhecimento do treinamento concluído.
+            <br>11. Suporte pós-treinamento para esclarecimento de dúvidas e acompanhamento.
+            <br>12. Avaliação da eficácia do treinamento com base nos resultados alcançados.
+            <br>13. Atualização periódica do programa de treinamento para refletir mudanças tecnológicas e de negócios.
+            <br>14. Incentivo à aprendizagem contínua e ao desenvolvimento profissional.
+            <br>15. Registro e documentação de todas as atividades de treinamento e capacitação.
+            </p>
+        </div>
+      </div>
+      
+      
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center" id="blog-label">NOSSOS SERVIÇOS</h2>
+
+          <p class="section-text text-center">
+            Explore nossa gama de serviços abaixo e descubra como podemos impulsionar a sua empresa para o próximo nível de inovação e eficiência.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/flayer1.png" width="1024" height="683" loading="lazy"
+                    alt="The Detail Process Of Decorating The Clay Vase At Pottery Studio" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Software de Facturação Cx Beta, será lançado em Brevemente.
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                   
+
+                  
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/flayer2.png" width="1024" height="683" loading="lazy"
+                    alt="Skills And Techniques To Make A Genuine Leather Wallet" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Em Junho estará disponivel a primeira versão do TOUCHSKY.
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+
+                   
+
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/flayer3.png" width="1024" height="683" loading="lazy"
+                    alt="5 Latest And Trending Handmade Crafts For Adults And Kids" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Segue a nossa página no instagram para ter acesso mais rápido as nossas informações.
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+        
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/blog-4.jpg" width="1024" height="683" loading="lazy"
+                    alt="Homemade Business That Now Makes Hundreds Of Millions" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Pode nos apresentar o seu projecto, no email: geral@codigocosme.ao 
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                   
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Código Cosme</a>
+
+          <p class="footer-text">
+            Nosso objeto social abrange o desenvolvimento de software e a prestação de serviços de tecnologia da informação. Desde a criação de aplicativos inovadores até a
+             manutenção de infraestruturas críticas de TI.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=244943642557&text=Bem%20Vindo%20a%20C%C3%B3digo%20Cosme%20SU%20Lda." class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+
+            <li>
+              <a href="https://instagram.com/codigocosme" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Sobre Nós</p>
+          </li>
+
+          <li>
+            <a href="assets/pages/sobrenos.html" class="footer-link">Sobre Nós</a>
+          </li>
+
+
+          <li>
+            <a href="assets/pages/termoseprivacidade.html" class="footer-link">Termos & Privacidade</a>
+          </li>
+
+          
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opções de Suporte</p>
+          </li>
+
+
+          <li>
+            <a href="assets/pages/contactos.html" class="footer-link">Feedback</a>
+          </li>
+
+          <li>
+            <a href="assets/pages/contactos.html" class="footer-link">Suporte</a>
+          </li>
+
+         
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Entrar em contato</p>
+
+          <p class="footer-text">
+            Pergunte ou de um feedback?
+            Adoraríamos saber de você
+          </p>
+
+          <a href="assets/pages/contactos.html" class="btn">
+            <span class="span">Contacta-nos</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2024 Código Cosme. All Right Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    // Encontrar todos os botões "Saber Mais" e os modais
+    var saberMaisBtns = document.querySelectorAll('.saber-mais-btn');
+    var modals = document.querySelectorAll('.modal');
+    var modalOverlay = document.getElementById('modalOverlay');
+    var closeButtons = document.querySelectorAll('.close-button');
+
+    // Adicionar evento de clique a todos os botões "Saber Mais"
+    saberMaisBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var target = this.getAttribute('data-target');
+        var modal = document.getElementById(target);
+        modal.style.display = 'block';
+        modalOverlay.style.display = 'block';
+      });
+    });
+
+    // Adicionar evento de clique aos botões de fechar
+    closeButtons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var target = this.getAttribute('data-target');
+        var modal = document.getElementById(target);
+        modal.style.display = 'none';
+        modalOverlay.style.display = 'none';
+      });
+    });
+
+    // Adicionar evento de clique ao overlay
+    modalOverlay.addEventListener('click', function() {
+      modals.forEach(function(modal) {
+        modal.style.display = 'none';
+      });
+      modalOverlay.style.display = 'none';
+    });
+  </script>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
